@@ -1,0 +1,62 @@
+different headings in html
+having 6 heading tags
+css :cascading style sheets
+    it is also case insenstive language
+    to  apply css to an element we can use style attribute
+    <style ="property1: value1: property2: value2">
+based on display we 2 types of elements
+    if the any element occupying entire page width is block level element
+    if element occupying only content is called inline level element 
+    to this block and inline you can use display property "display:block"
+ types of using css
+    1. inline css most priorty
+       syntax :<style="property:value ; property2:value2">content</>
+         used to style specific element   
+    2.internal css: used to style multiple elements  medium priority
+         it uses selector ex:<p>  
+         syntax: pre{
+            color:red;
+         }   
+    3.external css   less priority  
+       first create the css file with .css extension
+       link the css file to html file
+       mainly used for large scale projects and multiple pages
+       syntax:
+          <html>
+          <head>
+          <link rel="stylesheet" href="filename.css">
+          <head>
+          <html>
+margin 
+   space around the broder.(top,right,bottom,left)   
+padding
+   space around the content.(top,right,bottom,left)
+border
+   syntax:
+   h1{
+    border-color:
+    border-size:
+    border-style:
+    border-radius: for rounded corner
+    (or)
+    border: size  style color;
+    border-top:
+    border-bottom:
+    border-left:
+    border-right:
+   }              
+       style:
+       1.dashed
+       2.dotted
+       3.double
+       4.groove
+       5.ridge
+       6.solid
+       8.outset
+       9.inset
+box model
+   it describes how elements are structured and spaced in web page
+   structure :
+       content (text/image/video)-----> padding------->border(outline)--------->margin
+
+         

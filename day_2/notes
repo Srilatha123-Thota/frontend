@@ -1,0 +1,43 @@
+html 
+it was introduced by tim berners-lee in 1993.
+markup means written in tags.
+collection of tags and attributes
+types of tags 1) paired tag , 2) unpaired tag
+1)paired tags means which is having opening and closing tags, it is also called as container tag.
+2) unpaired tag/non container tag: no closing tag eg:<hr>
+
+
+extensions
+      live server
+      vs icons
+
+      the tags along with content is called html element.
+
+
+features of html 5
+    1.semantic tags: header ,footer tags.
+    2.multimedia tags
+    3.canvas:used to create templates
+    4.geolocation api: find latitude and longitude location
+    5. drag and drop api
+    6. storage(session storage : used to store datA in webpages)
+    7. page responsiveness
+      -------------------------------------------------------------------------------      
+
+list:
+  1. ordered list: the list maintaining the order
+     the default value is :1,2,3 (or) you can use type attribute to change the value<ol></ol>
+     start attribute : to custom order
+     reversed attribute : to reverse the list
+  2. unordered list: <ul></ul> not ordered list default is disc and type is circle ,disc,square.
+  3. declaration list/definition list :<dl></dl>
+      <dt></dt> : definition title /term
+      <dd></dd> : definition/description data
+
+
+attribute:it defines the additional information to tag and it is property of tag and it is in opening tag
+
+
+
+
+      

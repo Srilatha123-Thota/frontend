@@ -1,0 +1,33 @@
+div it is a block level element
+ block level element ---> <p>,<h>,<li>
+    occupy the width of entire page
+    the next element will go to new line
+    it respects height and width element
+    it respects margin and padding property
+    to convert display: inline
+    ----------------------------------------------------------------------------------
+span is a inline element
+inline element -----> i, spam,b,small
+   occupy entire page
+   it does not respect height,width and margin,padding property
+   display:block is used to convert
+   display :inline-block(it is still inline but respects height,width,margin,padding)
+------------------------------------------------------------------------------------------------
+box- sizing   :
+  box-sizing is a property apply for all elements
+  default value is <content-box>
+  it is used to define height and width of an element
+  box-sizing:content-box;
+  -----------------------------------------------------------------------------------------------------
+  descendent Selector:
+       it selects both direct and indirect child
+       we use space to separate 
+  child selector: 
+       it selects only direct child 
+       we use > symbol    
+  adjacent sibling selector:
+        it selects only the imediate adjacent elements
+        it uses "+" symbol
+  general sibling selector:
+        it selects all adjacent elements    
+        it uses"~" symbol
