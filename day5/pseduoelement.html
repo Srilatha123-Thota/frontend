@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo element</title>
+    <style>
+        #p1{
+            background-color: blanchedalmond;
+        }
+        #p1::first-letter{ /* used to select first letter of element*/
+            color: blue;
+            font-size: 20px;
+        }
+        #p1::first-line{   /* used to select first line of element */
+            color:brown;
+        }
+        #p2::after{
+            content:"🙌😒";
+        }
+        #p2::before{
+            content:"😘😊";
+        }
+        #p1::selection{
+            background-color:blueviolet;
+        }
+        #p1::marker{
+            color:blueviolet;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        pesudo element
+    </h1>
+    <hr>
+    <p> it is used to add style to the element based on its state</p>
+    <p> it indicates with  :: (double colon)</p>
+    <hr>
+    <p id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ullam omnis dolorem enim modi, error repellat inventore tempora vero cumque ipsam. Illo in, blanditiis voluptatem iusto cumque sequi reiciendis doloribus laborum culpa rem soluta consectetur? Voluptas blanditiis, maxime iusto repudiandae quos expedita magnam nobis earum! Cum totam ipsum ut! Consequatur error quos nisi commodi ullam unde mollitia ipsa rerum, ut nam quisquam debitis eligendi rem, sequi explicabo. Ex laudantium molestiae placeat delectus ullam vel totam eligendi corrupti fugit obcaecati, dicta impedit, reiciendis eum tempora labore, hic libero minus. Autem obcaecati dolorum vitae! Voluptatum fuga modi deleniti vitae perspiciatis, esse facilis.</p>
+
+    <p id="p2">this is a content</p>
+</body>
+
+</html>
