@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid 2</title>
+    <style>
+        .mainContainer{
+            min-height: 100vh;
+            display: grid;
+           grid-template-areas: "header    header"
+                                 "content  section1" 
+                                 "content  section2"  
+                                 "footer   footer" ;
+        }
+        .item{
+            font-size: 40px;
+            text-align: center;
+            align-content: center;
+            margin: 5px;
+            border-radius:20px ;
+        }
+        .header{
+            background-color: red;
+            grid-area: header;
+        }
+        .content{
+            background-color: blue;
+            grid-area: content;
+        }
+        .section1{
+            background-color: brown;
+            grid-area: section1;
+        }
+        .section2{
+            background-color: cornsilk;
+            grid-area: section2 ;
+        }
+        .footer{
+            background-color: crimson;
+            grid-area: footer;
+        }   
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child header">HEADER</div>
+        <div class="child content">CONTENT</div>
+        <div class="child section1">SECTION1</div>
+        <div class="child section2">SECTION2</div>
+        <div class="child footer">FOOTER</div>
+        
+      </div>
+</body>
+</html>
