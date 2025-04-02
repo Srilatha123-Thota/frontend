@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form task2</title>
+    <style>
+        form{
+            border: 2px solid black;
+            width: 400px;
+            margin:10px auto;
+            text align=center;
+
+        }
+        button{
+            color:aqua;
+            background-color:red;
+            margin:20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>basic information</legend>
+            <label for="fname">First Name</label>
+            <input type="text" placeholder="enter your first name" id="fname" name=" fname">
+            <br><br>
+            <label for="mname">middle Name</label>
+            <input type="text" placeholder="enter your middle name"  id="mname" name="mname">
+            <br><br>
+            <label for="lname">last Name</label>
+            <input type="text" placeholder="enter your last name"  id="lname" name="lname">
+            <br><br>
+            <label for="age">Age</label>
+            <input type="number" id="age" for="age" min="10" max="100">
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="others">
+            <label for="others">others</label>
+            <br><br>
+            <label for="dob">Date of Birth</label>
+            <input type="datetime-local" name="dob" id="dob">
+            <br><br>
+            <label for="image">upload image</label>
+            <input type="file" name="image" id="image" accept=".image/*">
+        </fieldset>
+        <br><br>
+        
+        <fieldset>
+            <legend>favourites</legeng>
+            <label for="red">Red</label>
+            <input type="checkbox"  id="red" name="red">
+            <label for="white">White</label>
+            <input type="checkbox" id="white" name="white">
+            <label for="blue">Blue</label>
+            <input type="checkbox"  id="blue" name="blue">
+            <br><br>
+           <label for="item">Favourite food item</label>
+                    <select name="item" id="item" >
+                        <option value="idly">IDLY</option>
+                        <option value="dosa">DOSA</option> 
+                        <option value="biryani">BIRYANI</option>
+                        <option value="panipuri">PANIPURI</option>
+                        <option value="sweet">SWEET</option>
+                    </select>
+                    <br><br>
+            <label for="item">Favourite SUBJECT</label>
+                <select name="item" id="item"  multiple size="3">
+                <option value="math">MATH</option>
+                <option value="science">SCIENCE</option> 
+                <option value="social">SOCIAL</option>
+                <option value="english">ENGLISH</option>
+                <option value="economics">ECONOMICS</option>
+            </select>
+            <br><br>
+            
+    
+
+            
+        </fieldset>
+        <!-- <label for="phone"> Phone Number</label> -->
+        <!-- <input type="tel"   name="phone" id="phone" placeholder="enter your 10 digit  number"  value ="12345678990" hidden>  -->
+        <fieldset>
+            <legend>contact information</legend>
+            <label for="email">EMail</label>
+            <input type="email" placeholder="enter you email" id="email" name="email">
+            <br><br>
+            <label for="phone"> Phone Number</label>
+            <input type="tel"   name="phone" id="phone" placeholder="enter your 10 digit  number" >
+            <br><br>
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="pwd" required> 
+            <br><br>
+            <label for="address">Address</label>
+            <textarea type="" name="address" id="address"> </textarea>
+            <br><br>
+            
+        </fieldset>
+
+    <button type="submit">submit</button>
+    <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

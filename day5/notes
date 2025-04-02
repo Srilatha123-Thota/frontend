@@ -1,0 +1,25 @@
+table its tags and its attributes
+    <table> tag is used to create <taBLE></taBLE>
+    <thead> is used to create table headings
+    <tbody> is used to create table content
+    <tfoot> is used to create table 
+    <th> to create strong content
+    <td> to create the table body
+    <caption> used to create table NAME
+    rowspan and colspan are the properties
+    rowspan: to merge the rows
+    colspan: to merge the columns
+    border,cellpadding,cellspacing,width,height
+    -------------------------------------------------------------------------------------------------
+    pseudo element:
+       used  to select the first letter ,first line,emojis before and after the content 
+       indicate with single : 
+       
+    
+      used to select the element  based on the state .
+    pseudo class:
+      used to select the element  based on the single .
+      indicate with
+        
+    
+    

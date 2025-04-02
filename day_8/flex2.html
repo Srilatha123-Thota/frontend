@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex2</title>
+    <style>
+        .parent{
+            height: 700px;
+            border: 1px solid red;
+            display:flex;
+            justify-content:space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: space-around;
+
+        }
+        /* flex item */
+        .child{
+            height: 60px;
+            width: 100px;
+            font-size: 40px;
+        }
+        .one{
+            background-color:aqua;
+        }
+        .two{
+            background-color:red;
+        }
+        .three{
+            background-color:greenyellow;
+        }
+        .four{
+            background-color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>flex</h1>
+    <hr> 
+    <div class ="parent"> 
+        <div class ="child  one">1</div>
+        <div class ="child  two">2</div>
+        <div class ="child  three">3</div>
+        <div class ="child  four">4</div>
+        <div class ="child  one">1</div>
+        <div class ="child  two">2</div>
+        <div class ="child three">3</div>
+        <div class ="child  four">4</div>
+        <div class ="child  one">1</div>
+        <div class ="child  two">2</div>
+        <div class ="child  three">3</div>
+        <div class ="child  four">4</div>
+        
+    </div>
+</body>
+</html>

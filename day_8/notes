@@ -1,0 +1,23 @@
+FLEX
+<p>it is used to align the elements</p>
+    <p> it is used to distribute space between elements</p>
+    <p>it will arrange elements in cross axis and main axis</p>
+    <p>flex container is a main division of flex</p>
+    <p>flex items are child of flex container</p>
+    <p> flex container is used to wrap the flex items</p>
+    <p> "display:flex" is used to make flex container</p>
+    <p> the default direction is row(left to right)</p>
+    <p> "flex-direction : row-reverse; row;column; column-reverse" is used to change the direction</p>
+
+    row (left to right)x-axis (main axis) y-axis (cross -axis)
+    column(top to bottom)x-axis(cross axis) y-axis(main -axis)
+    justiy-content used for main axis
+    align-content used for cross axis
+
+    child properties 
+    flex-shrink:
+    default=1 if you give 0 it will not shrink
+    flex-grow:it is used to grow the size of width 
+    default =0
+    order:it is used to arrange the items
+    
