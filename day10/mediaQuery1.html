@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query 1</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        border:1px solid red;
+        height: 100vh;
+    }
+    .nav{
+        background-color: blue;
+        height: 10%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .navitem{
+        font-size: 2em;
+        color: white;
+        margin: 20px;
+    }
+    .center{
+        text-align:center;
+        background-color: black;
+
+    }
+    @media screen and (max-width: 1100px) and (min-width:700px) {
+        .nav{
+            background-color: rgb(58, 39, 39 ,0.8);
+            justify-content: space-between;
+        }
+    }
+        @media screen and (max-width: 700px) and (min-width:300px) {
+        .nav{
+            background-color: green;
+            justify-content: flex-start;
+        }
+    }
+    @media  screen and(orientation : landscape) {
+        .center{
+            background-color: chartreuse;
+        }
+        
+    }
+    @media  screen and(orientation : potrait) {
+        .center{
+            background-color: burlywood;
+        }
+        
+    }
+    
+</style>
+<body>
+    <h1>Media Query 1</h1>
+    <p>it used to create responsive pages</p>
+    <hr>
+    <div class="nav">
+        
+            <div class="navitem">Home</div>
+            <div class="navitem">About</div>
+            <div class="navitem">Contact</div>
+        
+    </div>
+    <div>
+        <h1>this is center</h1>
+    </div>
+    if it is laptop then it will be red and alignment should be on left side
+    if it is tablet then it will be red and alignment should be on center side
+    if it is mobile then it will be red and alignment should be on right side
+    <div>
+        <h2>Footer</h2>
+        </div>
+</body>
+</html>
